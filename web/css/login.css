@@ -1,9 +1,10 @@
 /*CSS INGRESAR*/
 .ingresar_fondo{
     position: absolute;
-    background-image: url("../../web/img/login/fondo.png");
+    background-image: url("../../web/img/login/fondo.jpg");
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;   
     
 }
 li:hover{
