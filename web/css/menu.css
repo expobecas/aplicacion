@@ -307,3 +307,9 @@
     display: none;
   }
 }
+body{
+  position: absolute;
+  background-image: url("../../web/img/fondo.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}

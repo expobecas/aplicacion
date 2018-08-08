@@ -19,6 +19,25 @@ class Page extends component{
             <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
         </head>
         <body>
+        <div id='cssmenu'>
+        <ul>
+        <li class='active has-sub'><a href='#'>Opciones de administracion</a>
+            <ul>|
+                <li class='has-sub'><a href='#'>Citas</a>
+                    <ul>
+                    <li><a href='#'>Ver</a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'><a href='#'>Casos</a>
+                    <ul>
+                    <li><a href='#'>Ver</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href='#'>Cerrar sesion</a></li>
+        </ul>
+        </div>
       
         <main>
         ");
@@ -30,6 +49,7 @@ class Page extends component{
         <script type='text/javascript' src='../../web/js/jquery-3.2.1.min.js'></script>
         <script type='text/javascript' src='../../web/js/materialize.min.js'></script>
         <script type='text/javascript' src='../../web/js/script.js'></script>
+        <script type='text/javascript' src='../../web/js/jquery-latest.min.js'></script>        
 		</body>
 		</html>
         ");
