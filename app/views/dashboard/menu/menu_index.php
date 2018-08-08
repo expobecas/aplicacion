@@ -111,4 +111,4 @@
 </body>
 <html>
 
-<img src="../../web/img/login/fondo.jpg" border="1" alt="Este es el ejemplo de un texto alternativo" width="400" height="300">
+<img src="../../web/img/fondo.jpg" border="1" alt="Este es el ejemplo de un texto alternativo" width="400" height="300">
