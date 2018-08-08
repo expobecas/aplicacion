@@ -1,10 +1,9 @@
 /*CSS INGRESAR*/
-.ingresar_fondo{
+body{
     position: absolute;
-    background-image: url("../../web/img/login/fondo.png");
+    background-image: url("../../web/img/login/fondo.jpg");
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
-    
 }
 li:hover{
     background-color: #E84A5F;
@@ -30,12 +29,13 @@ ul#slide-out li:hover a {
 }
 .cuadrado{
     background-color: #ffffff;
-    height: 450px;
-    top: 90px;
+    height: 340px;
+    top: 113px;
     border-radius: 3%;
 }
 .logo
 {
+    width: 100px;
     margin-top: 5%;
 }
 .fondo-general{
