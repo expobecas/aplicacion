@@ -1,6 +1,6 @@
 <div class="ingresar_fondo">
 <div class="row">
-    <form method='post' class="col s12 m8 l4 push-l4 cuadrado push-m2 z-depth-5  ingresar_form">
+    <form method='post' class="col s8 m8 l4 push-l4 push-s2 cuadrado push-m2 z-depth-5  ingresar_form">
     <!--<h5 class="white-text">Acceder</h5>-->
       <div class="row">
       <img class="logo" src="../../web/img/logo_ricaldone.png" alt="logo">
