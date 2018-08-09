@@ -22,16 +22,11 @@ class Page extends component{
         <body>
         <div id='cssmenu'>
         <ul>
-        <li class='active has-sub'><a href='#'>Opciones de administracion</a>
+        <li class='active has-sub'><a href='#'>Cuenta</a>
             <ul>|
                 <li class='has-sub'><a href='#'>Citas</a>
                     <ul>
-                    <li><a href='#'>Ver</a></li>
-                    </ul>
-                </li>
-                <li class='has-sub'><a href='#'>Casos</a>
-                    <ul>
-                    <li><a href='#'>Ver</a></li>
+                    <li><a href='#'>Editar perfil</a></li>
                     </ul>
                 </li>
             </ul>
