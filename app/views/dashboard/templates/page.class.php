@@ -23,7 +23,6 @@ class Page extends component{
         <body>
         <div id='cssmenu'>
         <ul>
-        <li><a href='../../dashboard/menu/menu.php'>Menu</a></li>
         <li class='active has-sub'><a href='#'>Opciones de administracion</a>
             <ul>|
                 <li class='has-sub'><a href='#'>Citas</a>
@@ -69,6 +68,11 @@ class Page extends component{
         if($filename == "citas.php")
         {
             print("<script type='text/javascript' src='../../web/js/js_citas.js'></script>");
+        }
+        $filename = basename($_SERVER['PHP_SELF']);
+        if($filename == "solicitudes.php")
+        {
+            print("<script type='text/javascript' src='../../web/js/js_solicitudes.js'></script>");
         }
         print("
         </body>
