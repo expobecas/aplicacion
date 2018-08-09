@@ -24,11 +24,7 @@ class Page extends component{
         <ul>
         <li class='active has-sub'><a href='#'>Cuenta</a>
             <ul>|
-                <li class='has-sub'><a href='#'>Citas</a>
-                    <ul>
                     <li><a href='#'>Editar perfil</a></li>
-                    </ul>
-                </li>
             </ul>
         </li>
         <li><a href='#'>Cerrar sesion</a></li>
