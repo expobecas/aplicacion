@@ -51,9 +51,22 @@ class Page extends component{
         <script type='text/javascript' src='../../web/js/jquery-3.2.1.min.js'></script>
         <script type='text/javascript' src='../../web/js/materialize.min.js'></script>
         <script type='text/javascript' src='../../web/js/script.js'></script>
-        <script type='text/javascript' src='../../web/js/jquery-latest.min.js'></script>        
-		</body>
-		</html>
+        <script type='text/javascript' src='../../web/js/jquery-latest.min.js'></script>
+        ");
+
+        $filename = basename($_SERVER['PHP_SELF']);
+        if($filename == "casos.php")
+        {
+            print("<script type='text/javascript' src='../../web/js/js_casos.js'></script>");
+        }
+        $filename = basename($_SERVER['PHP_SELF']);
+        if($filename == "citas.php")
+        {
+            print("<script type='text/javascript' src='../../web/js/js_citas.js'></script>");
+        }
+        print("
+        </body>
+        </html>
         ");
     }
 }

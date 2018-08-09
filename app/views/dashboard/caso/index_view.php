@@ -1,31 +1,17 @@
 <div class="row">
-<div class="col s10 offset-s1 tabla-citas">
-<table class="white">
-        <thead>
-          <tr>
-              <th>Name</th>
-              <th>Item Name</th>
-              <th>Item Price</th>
-          </tr>
-        </thead>
+  <div class="col s10 offset-s1 tabla-citas white">
+    <table class="responsive-table highlight bordered" id="tablecaso">
+      <thead>
+        <tr>
+          <th>Alumno</th>
+          <th>Fecha que se generó el caso</th>
+          <th>Estado de solicitud</th>
+          <th>Fecha de cita</th>
+        </tr>
+      </thead>
 
-        <tbody>
-          <tr>
-            <td>Alvin</td>
-            <td>Eclair</td>
-            <td>$0.87</td>
-          </tr>
-          <tr>
-            <td>Alan</td>
-            <td>Jellybean</td>
-            <td>$3.76</td>
-          </tr>
-          <tr>
-            <td>Jonathan</td>
-            <td>Lollipop</td>
-            <td>$7.00</td>
-          </tr>
-        </tbody>
-      </table>
-</div>
+      <tbody id="casos">
+      </tbody>
+    </table>
+  </div>
 </div>

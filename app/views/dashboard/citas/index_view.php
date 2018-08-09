@@ -1,31 +1,18 @@
 <div class="row">
-<div class="col s10 offset-s1 tabla-citas">
-<table class="white">
+  <div class="col s10 offset-s1 tabla-citas white">
+      <table class="responsive-table highlight bordered" id="cita">
         <thead>
           <tr>
-              <th>Name</th>
-              <th>Item Name</th>
-              <th>Item Price</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Titulo</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
           </tr>
         </thead>
 
-        <tbody>
-          <tr>
-            <td>Alvin</td>
-            <td>Eclair</td>
-            <td>$0.87</td>
-          </tr>
-          <tr>
-            <td>Alan</td>
-            <td>Jellybean</td>
-            <td>$3.76</td>
-          </tr>
-          <tr>
-            <td>Jonathan</td>
-            <td>Lollipop</td>
-            <td>$7.00</td>
-          </tr>
+        <tbody id="citas">
         </tbody>
       </table>
-</div>
+  </div>
 </div>
