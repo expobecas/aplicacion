@@ -15,3 +15,26 @@
 .sg4, .sg4:hover{
     background-color: rgb(243, 188, 148);
 }
+.icon-user{
+    position: relative;
+    top: 40px;
+}
+.nombre{
+    position: relative;
+    color: #ffffff;
+    top: 10px;
+}
+@font-face{
+    font-family: Signika;
+    src: url("../../web/fonts/Signika-Light.ttf");
+}
+@font-face{
+    font-family: Signika-Semibold;
+    src: url("../../web/fonts/Signika-SemiBold.ttf");
+}
+.font-t{
+    font-family: 'Signika', sans-serif;
+}
+.mortar img{
+    height: 100%;
+}

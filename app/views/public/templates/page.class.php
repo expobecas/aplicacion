@@ -22,7 +22,7 @@ class Page extends component{
         <body>
         <div id='cssmenu'>
         <ul>
-        <li><a href='#'>Inicio</a></li>
+        <li><a href='../../public/index/index.php'>Inicio</a></li>
         <li class='active has-sub'><a href='#'>Cuenta</a>
             <ul>|
                     <li><a href='../../public/perfil/editar.php'>Editar perfil</a></li>
