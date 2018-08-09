@@ -1,0 +1,43 @@
+/*CSS INGRESAR*/
+body{
+    position: absolute;
+    background-image: url("../../web/img/login/fondo1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+li:hover{
+    background-color: #E84A5F;
+    transition: 1.5s;    
+}
+ul#slide-out li a {
+    transition: transform 0.2s linear;
+  }
+  
+ul#slide-out li:hover a {
+    transform: translateY(-2px);
+  }
+
+.ingresar_form{
+  text-align: center;
+}
+.ingresar, .mas_info, .boton-solicitud, .boton-editar2{
+    background-color: #FF847C;
+    
+}
+.ingresar:hover, .mas_info:hover, .boton-solicitud:hover, .boton-editar2:hover{
+    background-color: rgb(255, 119, 109);
+}
+.cuadrado{
+    background-color: #ffffff;
+    height: 340px;
+    top: 113px;
+    border-radius: 3%;
+}
+.logo
+{
+    width: 100px;
+    margin-top: 5%;
+}
+.fondo-general{
+    background-color: rgb(226, 231, 229);
+}
