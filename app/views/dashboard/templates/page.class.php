@@ -15,6 +15,7 @@ class Page extends component{
             <link type='text/css' rel='stylesheet' href='../../web/css/material_icons.css'/>
             <link type='text/css' rel='stylesheet' href='../../web/css/material_icons.css'/>
             <link type='text/css' rel='stylesheet' href='../../web/css/menu.css'/>
+            <link type='text/css' rel='stylesheet' href='../../web/css/citas.css'/>
             <script type='text/javascript' src='../../web/js/sweetalert.min.js'></script>
             <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
         </head>
