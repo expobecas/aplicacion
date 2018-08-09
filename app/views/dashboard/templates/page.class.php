@@ -1,6 +1,7 @@
 <?php 
 require_once("../../app/helpers/validator.class.php");
 require_once("../../app/helpers/component.class.php");
+require_once("../../app/models/database.class.php");
 class Page extends component{
     public static function templateHeader($title){
         session_start();
