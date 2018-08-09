@@ -23,24 +23,30 @@ class Page extends component{
         <body>
         <div id='cssmenu'>
         <ul>
+        <li><a href='../../dashboard/menu/menu.php'>Menu</a></li>
         <li class='active has-sub'><a href='#'>Opciones de administracion</a>
             <ul>|
                 <li class='has-sub'><a href='#'>Citas</a>
                     <ul>
-                    <li><a href='#'>Ver</a></li>
+                    <li><a href='../../dashboard/citas/index.php'>Ver</a></li>
                     </ul>
                 </li>
                 <li class='has-sub'><a href='#'>Casos</a>
                     <ul>
-                    <li><a href='#'>Ver</a></li>
+                    <li><a href='../../dashboard/caso/index.php'>Ver</a></li>
                     </ul>
                 </li>
+                <li class='has-sub'><a href='#'>Solicitud</a>
+                    <ul>
+                    <li><a href='../../dashboard/solicitud/index.php'>Ver</a></li>
+                    </ul>
             </ul>
         </li>
         <li><a href='#'>Cerrar sesion</a></li>
         </ul>
         </div>
-      
+        <body>
+      </body>
         <main>
         ");
     }

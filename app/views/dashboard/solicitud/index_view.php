@@ -1,3 +1,4 @@
+
 <!--TABLA SOLICITUDES GENERALES-->
 <div class="tabla">
 <div class="row">
@@ -5,11 +6,15 @@
       <table class="white highlight bordered tb-sol responsive-table">
          <thead class="color-thead">
             <tr>
-               <th>Nombres</th>
-               <th>Apellidos</th>
-               <th>Titulo</th>
-               <th>Descripcion</th>
-               <th>Fecha</th>
+               <th>N° Solicitud</th>
+               <th>Nombre</th>
+               <th>Apellido</th>
+               <th>Carnet</th>
+               <th>Grado</th>
+               <th>Especialidad</th>
+               <th>Encargada/o</th>
+               <th>Teléfono</th>
+               <th>Acción</th>
             </tr>
          </thead>
          <tbody>
